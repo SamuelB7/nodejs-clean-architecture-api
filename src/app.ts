@@ -23,8 +23,8 @@ app.register(fastifyCookie)
 app.register(fastifySwagger, {
     swagger: {
         info: {
-            title: 'Gym API',
-            description: 'API documentation for the Gym management system',
+            title: 'API',
+            description: 'API documentation',
             version: '1.0.0'
         },
         host: 'localhost:3000',
